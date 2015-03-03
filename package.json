@@ -41,7 +41,7 @@
   "dependencies": {
     "chalk": "~1.0.0",
     "maxmin": "~1.0.1",
-    "uncss": "~0.12.1"
+    "uncss": "git://github.com/emilycoco/uncss.git"
   },
   "devDependencies": {
     "chai": "~2.1.0",

@@ -50,7 +50,7 @@ module.exports = function ( grunt ) {
                         throw error;
                     }
 
-                    grunt.file.write( file.dest, output );
+                    grunt.file.write( file.dest, report.unused );
                     grunt.log.writeln('File ' + chalk.cyan( file.dest ) + ' created: ' + maxmin( report.original, output, options.report === 'gzip' ) );
 
                     done();
